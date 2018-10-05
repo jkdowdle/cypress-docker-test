@@ -15,7 +15,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cypress:start": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run --reporter @cypress/mocha-teamcity-reporter"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,5 +25,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@cypress/mocha-teamcity-reporter": "^1.0.0"
+  }
 }
