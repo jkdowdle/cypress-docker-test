@@ -15,7 +15,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cypress:start": "cypress open",
-    "cypress:run": "cypress run --reporter mocha-teamcity-reporter --reporter-options mochaFile=result.xml,toConsole=true"
+    "cypress:run": "cypress run --reporter mocha-teamcity-reporter"
   },
   "eslintConfig": {
     "extends": "react-app"

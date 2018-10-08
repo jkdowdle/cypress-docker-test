@@ -1,0 +1,149 @@
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:    3.1.0                                                                              │
+  │ Browser:    Electron 59 (headless)                                                             │
+  │ Specs:      4 found (test-2.js, test-3.js, test-4.js, test.js)                                 │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running: test-2.js...                                                                    (1 of 4) 
+##teamcity[testSuiteStarted name='My first test' flowId='8103']
+##teamcity[testStarted name='does not do much!' captureStandardOutput='true' flowId='8103']
+##teamcity[testFinished name='does not do much!' duration='153' flowId='8103']
+##teamcity[testSuiteFinished name='My first test' duration='147' flowId='8103']
+##teamcity[testSuiteFinished name='mocha.suite' duration='200' flowId='8103']
+
+  (Results)
+
+  ┌─────────────────────────┐
+  │ Tests:        1         │
+  │ Passing:      1         │
+  │ Failing:      0         │
+  │ Pending:      0         │
+  │ Skipped:      0         │
+  │ Screenshots:  0         │
+  │ Video:        true      │
+  │ Duration:     0 seconds │
+  │ Spec Ran:     test-2.js │
+  └─────────────────────────┘
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /home/joshd/sandbox/cypress-docker-test/cypress/videos/test-2.js.mp4 (0 seconds)
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running: test-3.js...                                                                    (2 of 4) 
+##teamcity[testSuiteStarted name='My first test' flowId='8103']
+##teamcity[testStarted name='does not do much!' captureStandardOutput='true' flowId='8103']
+##teamcity[testFinished name='does not do much!' duration='134' flowId='8103']
+##teamcity[testSuiteFinished name='My first test' duration='136' flowId='8103']
+##teamcity[testSuiteFinished name='mocha.suite' duration='178' flowId='8103']
+
+  (Results)
+
+  ┌─────────────────────────┐
+  │ Tests:        1         │
+  │ Passing:      1         │
+  │ Failing:      0         │
+  │ Pending:      0         │
+  │ Skipped:      0         │
+  │ Screenshots:  0         │
+  │ Video:        true      │
+  │ Duration:     0 seconds │
+  │ Spec Ran:     test-3.js │
+  └─────────────────────────┘
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /home/joshd/sandbox/cypress-docker-test/cypress/videos/test-3.js.mp4 (0 seconds)
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running: test-4.js...                                                                    (3 of 4) 
+##teamcity[testSuiteStarted name='My first test' flowId='8103']
+##teamcity[testStarted name='does not do much!' captureStandardOutput='true' flowId='8103']
+##teamcity[testFinished name='does not do much!' duration='143' flowId='8103']
+##teamcity[testSuiteFinished name='My first test' duration='148' flowId='8103']
+##teamcity[testSuiteFinished name='mocha.suite' duration='193' flowId='8103']
+
+  (Results)
+
+  ┌─────────────────────────┐
+  │ Tests:        1         │
+  │ Passing:      1         │
+  │ Failing:      0         │
+  │ Pending:      0         │
+  │ Skipped:      0         │
+  │ Screenshots:  0         │
+  │ Video:        true      │
+  │ Duration:     0 seconds │
+  │ Spec Ran:     test-4.js │
+  └─────────────────────────┘
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /home/joshd/sandbox/cypress-docker-test/cypress/videos/test-4.js.mp4 (0 seconds)
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running: test.js...                                                                      (4 of 4) 
+##teamcity[testSuiteStarted name='My first test' flowId='8103']
+##teamcity[testStarted name='does not do much!' captureStandardOutput='true' flowId='8103']
+##teamcity[testFinished name='does not do much!' duration='137' flowId='8103']
+##teamcity[testSuiteFinished name='My first test' duration='140' flowId='8103']
+##teamcity[testSuiteFinished name='mocha.suite' duration='182' flowId='8103']
+
+  (Results)
+
+  ┌─────────────────────────┐
+  │ Tests:        1         │
+  │ Passing:      1         │
+  │ Failing:      0         │
+  │ Pending:      0         │
+  │ Skipped:      0         │
+  │ Screenshots:  0         │
+  │ Video:        true      │
+  │ Duration:     0 seconds │
+  │ Spec Ran:     test.js   │
+  └─────────────────────────┘
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /home/joshd/sandbox/cypress-docker-test/cypress/videos/test.js.mp4 (0 seconds)
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+      Spec                                                Tests  Passing  Failing  Pending  Skipped 
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔ test-2.js                                 169ms        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔ test-3.js                                 151ms        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔ test-4.js                                 158ms        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔ test.js                                   152ms        1        1        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    All specs passed!                           630ms        4        4        -        -        -  
+
