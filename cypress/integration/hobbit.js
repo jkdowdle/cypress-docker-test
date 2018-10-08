@@ -8,6 +8,6 @@ describe('bilbo', () => {
 describe('frodo', () => {
   it('samwise', () => {
     cy.visit('index.html')
-    expect(3).to.equal(3)
+    expect(3).to.equal(4)
   })
 })
