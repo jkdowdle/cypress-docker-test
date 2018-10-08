@@ -2,8 +2,8 @@ version: '3.4'
 
 services:
 
-  client:
-    container_name: end-to-end
+  cypress:
+    container_name: cypress
     build: .
     ports:
-      - '3000:3000'
+      - '9750:9750'
