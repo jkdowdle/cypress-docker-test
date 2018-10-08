@@ -7,3 +7,4 @@ services:
     build: .
     ports:
       - '9750:9750'
+    network_mode: host
